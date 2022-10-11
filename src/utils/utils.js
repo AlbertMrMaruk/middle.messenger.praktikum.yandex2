@@ -3,9 +3,9 @@ export function last(list) {
     return list.at(-1);
   }
 }
-export function first(list) {
-  if (Array.isArray(list)) {
-    return list.at(0);
+export function first(lis) {
+  if (Array.isArray(lis)) {
+    return lis.at(0);
   }
 }
 export function rangeRight(start, end, step) {
