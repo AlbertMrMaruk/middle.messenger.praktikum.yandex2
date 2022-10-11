@@ -86,8 +86,6 @@ function isPrototype(value) {
 function isArguments(value) {
   return isObjectLike(value) && getTag(value) === "[object Arguments]";
 }
-
-// Реализация лодаша
 export function isEmpty(value) {
   if (value === null) {
     return true;
